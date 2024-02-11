@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<style>
+ .cusotom-color{
+    
+ }
+</style>
+<body>
+    <main>
+        <h1 class="text-center text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 mt-10 p-3 mb-20">Digital Tasbih</h1>
+
+        <div class="card-container grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div class="card flex justify-center items-center  space-y-6 p-3 shadow-md">
+                <h1 class="font-black text-4xl text-transparent bg-clip-text bg-gradient-to-r to-green-600 from-green-700">Subhan Allah</h1>
+                <p id="count-text" class="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-t to-red-700 from-green-600">0</p>
+               <div class="flex gap-5">
+                <button id="btn-increment" class="btn btn-success uppercase text-white">increment</button>
+                <button id="btn-decrement" class="btn btn-error uppercase text-white">decrement</button>
+               </div>
+            </div>
+            <div class="card flex justify-center items-center  space-y-6 p-3 shadow-2xl">
+                <h1 class="font-black text-4xl text-transparent bg-clip-text bg-gradient-to-r to-green-600 from-green-700">Alhamdulilah</h1>
+                <p id="count-text1" class="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-t to-red-700 from-green-600">0</p>
+               <div class="flex gap-5">
+                <button id="btn-increment2" class="btn btn-success uppercase text-white">increment</button>
+                <button  id="btn-decrement2"  class="btn btn-error uppercase text-white">decrement</button>
+               </div>
+            </div>
+            <div class="card flex justify-center items-center border space-y-6 p-3 shadow-2xl">
+                <h1 class="font-black text-4xl text-transparent bg-clip-text bg-gradient-to-r to-green-600 from-green-700">Allahuakber</h1>
+                <p id="count-text2" class="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-t to-red-700 from-green-600">0</p>
+               <div class="flex gap-5">
+                <button id="btn-increment3" class="btn btn-success uppercase text-white">increment</button>
+                <button  id="btn-decrement3" class="btn btn-error uppercase text-white">decrement</button>
+               </div>
+            </div>
+        </div>
+    </main>
+    <script src="tasbih.js"></script>
+</body>
+</html>
